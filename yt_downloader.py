@@ -3,7 +3,7 @@ from tkinter import filedialog
 from pytube import YouTube
 import threading
 
-##needs thread constructor and exception handling (push them to the text box inside root)##
+##needs function to invoke the thread constructor for multiple downloads and exception handling (push them to the text box inside root)##
 
 def on_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
